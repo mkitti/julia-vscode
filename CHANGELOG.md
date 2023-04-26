@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 * The language server now uses incremental sync ([#1105](https://github.com/julia-vscode/LanguageServer.jl/pull/1105))
+* The language server method `runserver()` is now precompiled using PrecompileTools.jl ([#1218](https://github.com/julia-vscode/LanguageServer.jl/pull/1218))
 
 ### Fixed
 * `Assigned but not used` linter annotations are now slightly more correct ([#339](https://github.com/julia-vscode/StaticLint.jl/pull/339))
